@@ -44,7 +44,9 @@ class Home extends React.Component {
   render() {
     return (
       <Styles>
-        <Header />
+        <div id="header">
+          <Header />
+        </div>
         <div className="componentContainer">
           <div id="portfolio" className="projects">
             <h3>PROJECTS</h3>

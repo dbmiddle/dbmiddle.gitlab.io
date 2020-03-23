@@ -20,7 +20,7 @@ const Styles = styled.div`
 const NavigationBar = () => (
     <Styles>
         <Navbar expand='lg' fixed="top">
-            <Navbar.Brand href='/'>DM</Navbar.Brand>
+            <Navbar.Brand href='#header'>DM</Navbar.Brand>
             <Navbar.Toggle aria-controls='basic-navbar-nav' />
             <Navbar.Collapse id='basic-navbar-nav'>
                 <Nav className='ml-auto'>
