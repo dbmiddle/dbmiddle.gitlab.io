@@ -7,6 +7,10 @@ const Styles = styled.div`
     text-align: center;
   }
 
+p {
+    color: #ffffcc;
+}
+
   div {
       margin-top: 25px;
   }
@@ -22,7 +26,6 @@ class About extends React.Component {
       <Styles>
         <div>
           <Container>
-            <h4>ABOUT ME</h4>
             <p>
               Hello, I'm Devon Middleton, a software developer based in
               Indianapolis, IN. I broke into tech in 2019 after spending over 10

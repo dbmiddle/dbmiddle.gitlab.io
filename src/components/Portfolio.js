@@ -12,6 +12,7 @@ const Styles = styled.div`
   div {
     margin: auto;
     margin-top: 25px;
+    color: #ffffcc;
   }
 `;
 
@@ -24,7 +25,7 @@ class Portfolio extends React.Component {
             <Row>
               <div>
                 <Col>
-                  <Card style={{ width: "18rem" }}>
+                  <Card style={{ width: "18rem", backgroundColor: "#1e3f62" }}>
                     <Card.Img
                       variant="top"
                       src={RockPaperScissors}
@@ -44,7 +45,7 @@ class Portfolio extends React.Component {
               </div>
               <div>
                 <Col>
-                  <Card style={{ width: "18rem" }}>
+                  <Card style={{ width: "18rem", backgroundColor: "#1e3f62" }}>
                     <Card.Img
                       variant="top"
                       src={TowerOfHanoi}
@@ -64,7 +65,7 @@ class Portfolio extends React.Component {
               </div>
               <div>
                 <Col>
-                  <Card style={{ width: "18rem" }}>
+                  <Card style={{ width: "18rem", backgroundColor: "#1e3f62" }}>
                     <Card.Img
                       variant="top"
                       src={ConnectFour}
@@ -85,7 +86,7 @@ class Portfolio extends React.Component {
 
               <div>
                 <Col>
-                  <Card style={{ width: "18rem" }}>
+                  <Card style={{ width: "18rem", backgroundColor: "#1e3f62" }}>
                     <Card.Img
                       variant="top"
                       src={Sokoban}
@@ -105,7 +106,7 @@ class Portfolio extends React.Component {
               </div>
               <div>
                 <Col>
-                  <Card style={{ width: "18rem" }}>
+                  <Card style={{ width: "18rem", backgroundColor: "#1e3f62" }}>
                     <Card.Img
                       variant="top"
                       src={Kwitter}
@@ -125,7 +126,7 @@ class Portfolio extends React.Component {
               </div>
               <div>
                 <Col>
-                  <Card style={{ width: "18rem" }}>
+                  <Card style={{ width: "18rem", backgroundColor: "#1e3f62" }}>
                     <Card.Img
                       variant="top"
                       src={Sproosed}

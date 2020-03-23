@@ -1,23 +1,42 @@
 import React from "react";
+import Header from "./Header";
+import Portfolio from "./Portfolio";
+import About from "./About";
+import Contact from "./Contact";
 import styled from "styled-components";
-import { Container, Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
-
-// import './Home.css'
 
 const Styles = styled.div`
-  .header {
+  .projects {
     display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
+    top: 450px;
     position: relative;
-    top: 100px;
-  }
-  .headerText {
-    text-align: center;
   }
 
-  .name {
-    color: orange;
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 550px;
+    position: relative;
+  }
+
+  h3 {
+    color: #ffffcc;
+  }
+
+  hr {
+    background-color: #ffffcc;
+    width: 50%;
+  }
+  .componentContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 `;
 
@@ -25,22 +44,22 @@ class Home extends React.Component {
   render() {
     return (
       <Styles>
-        {/* <Jumbo className='Jumbo1'> */}
-        <div className="header">
-          <Container>
-            <div className="headerText">
-              <p>Hello, my name is</p>
-              <h1>
-                <span className="name">DEVON MIDDLETON.</span>
-              </h1>
-              <p>I'm a Full Stack Software Developer.</p>
-              <Link to='/portfolio'>
-                <Button variant="dark">Check out my work</Button>
-              </Link>
-            </div>
-          </Container>
+        <Header />
+        <div className="componentContainer">
+          <div id="portfolio" className="projects">
+            <h3>PROJECTS</h3>
+            <hr />
+            <Portfolio />
+          </div>
+          <div id="about" className="about">
+            <h3>ABOUT</h3>
+            <hr />
+            <About />
+          </div>
         </div>
-        {/* </Jumbo> */}
+        <div id="contact">
+          <Contact />
+        </div>
       </Styles>
     );
   }
