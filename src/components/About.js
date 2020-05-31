@@ -42,7 +42,7 @@ class About extends React.Component {
               <br />
               While I do spend much of my time learning and sharpening my
               skills, I also enjoy gaming, hiking, traveling, fantasy football
-              and anything FOOD!{" "}
+              and anything FOOD!!{" "}
             </p>
           </Container>
         </div>
