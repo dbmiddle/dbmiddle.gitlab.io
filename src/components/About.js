@@ -44,6 +44,7 @@ class About extends React.Component {
               skills, I also enjoy gaming, hiking, traveling, fantasy football
               and anything FOOD!!
               <br />
+              <br />
               Please feel free to reach out to me for any of your software development
               needs or for collaboration opportunities. I'm looking forward to hearing
               from you!
