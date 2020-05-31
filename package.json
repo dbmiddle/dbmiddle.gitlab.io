@@ -1,8 +1,8 @@
 {
+  "homepage": "https://dbmiddle.github.io/devon-middleton/",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dbmiddle.github.io/devon-middleton/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
